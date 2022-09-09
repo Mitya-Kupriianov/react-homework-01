@@ -1,0 +1,37 @@
+.statistics {
+  text-align: center;
+  border: 1px solid rgb(80, 211, 19);
+  background-color: rgb(193, 228, 216);
+}
+
+.title {
+  font-size: 24px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: rgba(95, 24, 75, 0.5);
+}
+
+.stat_list {
+  display: flex;
+  padding-left: 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.label {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.percentage {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #ffffff;
+}
