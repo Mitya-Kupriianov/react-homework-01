@@ -1,14 +1,6 @@
 import s from './Statistics.module.css';
 import PropTypes from 'prop-types';
-
-function StatisticsItem({ label, percentage }) {
-  return (
-    <>
-      <span className={s.label}>{label}</span>
-      <span className={s.percentage}>{percentage}%</span>
-    </>
-  );
-}
+import StatisticsItem from './StatisticsItem';
 
 export default function Statistics({ title = '', stats }) {
   return (
